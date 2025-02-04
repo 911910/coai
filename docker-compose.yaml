@@ -32,7 +32,7 @@ services:
       image: programzmh/chatnio
       container_name: chatnio
       restart: always
-      ports:
+      expose:
           - "8094"
       depends_on:
           - mysql
