@@ -34,7 +34,7 @@ services:
       - coai-network
 
   chatnio:
-    image: programzmh/chatnio:stable
+    image: programzmh/chatnio
     container_name: chatnio
     restart: always
     expose:
