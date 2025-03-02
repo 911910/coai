@@ -1,0 +1,32 @@
+mysql:
+  db: chatnio
+  host: coai-mysql
+  password: chatnio123456
+  port: 3306
+  user: coai-mysql
+  tls: false
+
+redis:
+  host: coai-redis
+  port: 6379
+  db: 0
+  password: ""
+
+
+secret: secret
+serve_static: true
+
+server:
+  port: 8094
+system:
+  general:
+    backend: ""
+  mail:
+    host: ""
+    port: 465
+    username: ""
+    password: ""
+    from: ""
+  search:
+    endpoint: https://duckduckgo-api.vercel.app
+    query: 5
